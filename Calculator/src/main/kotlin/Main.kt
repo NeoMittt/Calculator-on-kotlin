@@ -1,11 +1,10 @@
-# Calculator-on-kotlin
-ConsoleCalculator on Kotlin with try-catch
+package org.example
 
-
-
-```kotlin
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
     while (true){
+
         try {
             val input = readLine()
             if (input != null){
@@ -39,15 +38,21 @@ fun main() {
                         val sum = a/b
                         println("=" + sum)
                     }
+
                 }
                 else{
                     println("Er")
                 }
             }
+
+
+
+
+
+
         }catch (e: Exception){
             println("Er1")
         }
 
     }
 }
-```
